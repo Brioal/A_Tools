@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brioal.a_tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CicleImageTest.CicleImageTest"
+            android:label="@string/title_activity_cicle_image_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoadingView.LoadingViewTest"
+            android:label="@string/title_activity_loading_view_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoadingView.LoadingAsView"
+            android:label="@string/title_activity_loading_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ColorDialog.ColorDialogTest"
+            android:label="@string/title_activity_color_dialog_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PhotoView.PhotoViewTestActivity"
+            android:label="@string/title_activity_photo_view_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GifView.GifViewTestActivity"
+            android:label="@string/title_activity_gif_view_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ImageLoaderTest.ImageLoaderTestActivity"
+            android:label="@string/title_activity_image_loader_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PicassoTest.PicassoTestActivity"
+            android:label="@string/title_activity_picasso_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

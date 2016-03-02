@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">A_Tools</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cicle_image_test">CicleImageTest</string>
+    <string name="title_activity_loading_view_test">LoadingViewTest</string>
+    <string name="title_activity_loading_view">LoadingView</string>
+    <string name="title_activity_color_dialog_test">ColorDialogTest</string>
+    <string name="title_activity_photo_view_test">PhotoViewTestActivity</string>
+    <string name="title_activity_gif_view_test">GifViewTestActivity</string>
+    <string name="title_activity_image_loader_test">ImageLoaderTestActivity</string>
+    <string name="title_activity_picasso_test">PicassoTestActivity</string>
+</resources>
